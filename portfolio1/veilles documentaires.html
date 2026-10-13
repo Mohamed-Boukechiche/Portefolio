@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veilles documentaires - Portfolio BTS SIO</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .intro { color: #475569; }
+        .theme { margin-top: 2.5rem; }
+        .theme h3 { border-bottom: 3px solid #3b82f6; padding-bottom: 0.4rem; color: #0f172a; }
+        .article { border-left: 4px solid #3b82f6; background: #f8fafc; padding: 1rem 1.25rem; margin: 1.25rem 0; border-radius: 0 6px 6px 0; }
+        .article h4 { margin: 0 0 0.3rem 0; color: #1e293b; }
+        .article .meta { font-size: 0.9rem; color: #64748b; margin: 0 0 0.6rem 0; }
+        .article p { margin: 0.4rem 0; }
+        .article a { color: #1d4ed8; }
+        .note { font-size: 0.9rem; color: #64748b; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portfolio</h1>
+        <p>BTS SIO - Services Informatiques aux Organisations</p>
+    </header>
+
+    <!-- Ce menu permet de naviguer entre toutes les pages -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="veilles documentaires.html">veilles documentaires</a></li>
+            <li><a href="synthese.html">Tableau de synthèse</a></li>
+            <li><a href="stage1.html">Stage 1</a></li>
+            <li><a href="stage2.html">Stage 2</a></li>
+            <li><a href="Guide de bonnes conduites.html">Guide de bonnes conduites</a></li>
+            <li><a href="choisi.html">Projet choisi</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Veilles documentaires</h2>
+        <p class="intro">Cette page regroupe ma veille sur deux thèmes : la cybersécurité et l'informatique quantique. Pour chaque article, j'indique la source, la date de publication, un résumé et le lien vers l'original.</p>
+
+        <!-- ========== OUTILS DE VEILLE ========== -->
+        <section class="theme" id="outils">
+            <h3>Mes outils de veille</h3>
+            <article class="article">
+                <h4>Agrégateur de flux : Feedly</h4>
+                <p>J'utilise Feedly pour regrouper mes flux RSS et suivre les nouveautés de mes deux thèmes au même endroit.</p>
+                <!-- À compléter : ajoute ici une capture d'écran de ton Feedly, ex. <img src="feedly.png" alt="Capture de mon Feedly" style="max-width:100%"> -->
+            </article>
+            <article class="article">
+                <h4>Flux RSS suivis</h4>
+                <ul>
+                    <!-- À compléter avec tes vrais flux -->
+                    <li>Feed 1 :Cybersécurité</li>
+                    <li>Feed 2 : Informatique quantique</li>
+                </ul>
+            </article>
+           
+        </section>
+
+        <!-- ========== THÈME 1 : CYBERSÉCURITÉ ========== -->
+        <section class="theme" id="cybersecurite">
+            <h3>Thème 1 : Cybersécurité</h3>
+
+            <article class="article">
+                <h4>Panorama de la cybermenace 2025</h4>
+                <p class="meta">Source : ANSSI (cyber.gouv.fr) - publié le 11 mars 2026</p>
+                <p>Bilan annuel de l'ANSSI : en 2025, l'agence a traité 3 586 événements de sécurité, soit 18 % de moins qu'en 2024, mais le niveau de menace reste élevé. Les frontières entre attaquants étatiques et cybercriminels s'estompent, et ils partagent de plus en plus outils et méthodes.</p>
+                <p><a href="https://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2025/" target="_blank" rel="noopener">Lire l'article</a></p>
+            </article>
+
+            <article class="article">
+                <h4>L'ANSSI alerte sur un brouillage des menaces</h4>
+                <p class="meta">Source : Siècle Digital - publié le 16 mars 2026</p>
+                <p>Analyse du Panorama 2025 : les chiffres baissent légèrement, mais la menace change de nature plutôt que de volume. Les rançongiciels restent très présents et les vols de données se multiplient.</p>
+                <p><a href="https://siecledigital.fr/2026/03/16/lanssi-alerte-sur-un-brouillage-des-menaces/" target="_blank" rel="noopener">Lire l'article</a></p>
+            </article>
+
+            <article class="article">
+                <h4>La transposition de NIS 2 enfin à l'ordre du jour de l'Assemblée nationale</h4>
+                <p class="meta">Source : Next (Le brief) - publié le 23 septembre 2026</p>
+                <p>Le projet de loi sur la résilience des infrastructures critiques et le renforcement de la cybersécurité (qui transpose NIS 2, DORA et REC) doit être examiné à l'Assemblée à partir du 7 octobre 2026. La France a dépassé de deux ans la date limite européenne, fixée au 17 octobre 2024. L'article 16 bis, ajouté au Sénat, reste un point de blocage politique.</p>
+                <p><a href="https://next.ink/briefs/le-brief-du-23-septembre-2026/" target="_blank" rel="noopener">Lire l'article</a></p>
+            </article>
+
+            <article class="article">
+                <h4>Publication du rapport d'activité 2025 de l'ANSSI</h4>
+                <p class="meta">Source : ANSSI (cyber.gouv.fr) - publié le 4 mai 2026</p>
+                <p>L'ANSSI présente ses actions de 2025 et s'appuie sur la Stratégie nationale de cybersécurité 2026-2030. La réglementation, notamment NIS 2, est présentée comme un pilier pour élever le niveau de sécurité. L'agence juge aussi la cryptographie post-quantique (PQC) comme la voie la plus prometteuse face à la menace quantique, ce qui fait le lien avec mon second thème.</p>
+                <p><a href="https://cyber.gouv.fr/actualites/publication-du-rapport-dactivite-2025-de-lanssi/" target="_blank" rel="noopener">Lire l'article</a></p>
+            </article>
+        </section>
+
+        <!-- ========== THÈME 2 : INFORMATIQUE QUANTIQUE ========== -->
+        <section class="theme" id="quantique">
+            <h3>Thème 2 : Informatique quantique</h3>
+
+            <article class="article">
+                <h4>Cryptographie post-quantique : qu'est-ce que c'est ?</h4>
+                <p class="meta">Source : Futura Sciences - publié le 25 avril 2026</p>
+                <p>Article de vulgarisation : un ordinateur quantique assez puissant pourrait casser les algorithmes actuels comme RSA-2048. L'ère quantique est estimée entre 2030 et 2035, et de grandes organisations (cloud, banques, administrations) migrent déjà vers la cryptographie post-quantique.</p>
+                <p><a href="https://www.futura-sciences.com/sciences/definitions/cryptographie-quantique-cryptographie-post-quantique-28416/" target="_blank" rel="noopener">Lire l'article</a></p>
+            </article>
+
+            <article class="article">
+                <h4>Crypto post-quantique 2026 : l'année du tournant stratégique</h4>
+                <p class="meta">Source : TheGreenBow (note stratégique, PDF) - juin 2026</p>
+                <p>Note sur la stratégie « Harvest Now, Decrypt Later » (collecter des données chiffrées aujourd'hui pour les déchiffrer plus tard) et sur la cryptographie hybride, qui combine un algorithme classique et un algorithme post-quantique pendant la transition. Elle cite aussi un investissement d'un milliard d'euros annoncé le 22 mai 2026 pour la filière quantique française et européenne. À noter : l'auteur est un éditeur de solutions de sécurité, donc une source à recouper.</p>
+                <p><a href="https://www.thegreenbow.com/wp-content/uploads/2026/06/Note_de_Synthese_TGB_2026_lannee-du_tournant_strategique.pdf" target="_blank" rel="noopener">Lire la note</a></p>
+            </article>
+
+            <article class="article">
+                <h4>Pasqal, pépite française du quantique, sécurise 340 millions d'euros</h4>
+                <p class="meta">Source : Maddyness - mars 2026</p>
+                <p>La start-up française Pasqal, cofondée par le prix Nobel Alain Aspect, annonce 340 millions d'euros de financement et une valorisation de 2 milliards de dollars. Objectif : développer un ordinateur quantique tolérant aux fautes d'ici 2030, face à IBM, Google ou Amazon.</p>
+                <p><a href="https://www.maddyness.com/?p=1434134" target="_blank" rel="noopener">Lire l'article</a></p>
+            </article>
+
+            <article class="article">
+                <h4>French Quantum Computing Companies 2026 (en anglais)</h4>
+                <p class="meta">Source : Quantum Zeitgeist - 2026</p>
+                <p>Panorama des acteurs français (Pasqal, Quandela, Alice &amp; Bob, Quobly, C12), soutenus par le programme national PROQCIMA, avec pour cibles un démonstrateur de 128 qubits logiques en 2030 et 2 048 en 2035. Alice &amp; Bob a livré en juin 2026 son premier système sur site, et l'État français a prévu d'acheter une de ses machines pour le centre GENCI.</p>
+                <p><a href="https://quantumzeitgeist.com/french-quantum-computing-companies/" target="_blank" rel="noopener">Lire l'article</a></p>
+            </article>
+        </section>
+
+        <p class="note">Articles consultés le 11 octobre 2026. Les résumés sont rédigés avec mes propres mots ; les liens renvoient vers les sources originales.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Mon Portfolio BTS SIO</p>
+    </footer>
+
+</body>
+</html>
